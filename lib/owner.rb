@@ -68,14 +68,12 @@ class Owner
       pet_array.each do |pet|
         pet.mood = "nervous"
       end
-      pet_array.clear
+      
     end
   end
 
   def list_pets
     return "I have #{pets[:fishes].count} fish, #{pets[:dogs].count} dog(s), and #{pets[:cats].count} cat(s)."
   end
-
-
 
 end
